@@ -1,0 +1,93 @@
+@media screen and (min-width: 1200px)
+{
+header{width:100%; height:90px; border-bottom:1px solid #d7d1d1;}  
+#logo{width:11%; height:75px; border:0px solid #000; margin: 7px 0 0 7.5%; float: left;}
+#arama{width:26%; height:50px; border:0px solid #d7d1d1; margin: 19px 0 0 13%; float: left;}
+#search{width:80%; height:42px; border:1px solid #d7d1d1; float: left; margin: 3px 0 0 2%; text-align: center; color:#f9f7f7; font-size: 14px;}
+#buton{margin: 3px 0 0 0; border: none; background:#8f8f8f; width: 15%; height: 42px; border-radius:0px 5px 5px 0; color:#fff; font-size: 14px;}
+
+#giris{width:9%; height:50px; border:1px solid #d7d1d1; color:#000; font-size: 16px; margin: 19px 0 0 14.7%; float: left; border-radius: 7px 7px 7px 7px; text-align: center; line-height: 43px; text-decoration: none;}
+#sepet{width:9%; height:50px; border:1px solid #d7d1d1; color:#fff; background: #8f8f8f; margin: 19px 0 0 1%; float: left; border-radius: 7px 7px 7px 7px; text-align: center; line-height: 43px; text-decoration: none;}
+#menu{width: 55%; height: 53px;}
+#menuic{width:100%; height: 50px; border-bottom:1px solid #dbd6d6; background: #fff; text-align: center; line-height: 33px; border-right:1px solid #dbd6d6; border-left:1px solid #dbd6d6;}
+#menuic:hover{background: #fff;}
+#menuic a:hover{color:red; border-right:1px solid #dbd6d6; border-left:1px solid #dbd6d6;}
+#menuyazi1{font-size: 13.5px;}
+nav{width:100%; height:58px; border-bottom:0px solid #d7d1d1;  background: #f9f9f9;}
+.container {
+    height: 0px; /* Uzun bir sayfa simülasyonu */
+}
+.side-menu {
+    position: fixed;
+    top: 160px; /* İstenilen yüksekliği ayarlayabilirsiniz. */
+    right: 77%; /* Sağa yapıştırmak için */
+    width: 15%; /* Yan menü genişliğini ayarlayabilirsiniz. */
+    height:560px;
+    border:1px solid #d7d1d1;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px;
+}
+#menuic1{width:98%; height:45px; border-bottom: 1px solid #d7d1d1; margin: 10px 0 0 0%; line-height: 30px; font-size: 15px; padding: 0 0 0 10%;}
+#menuic2{width:70%; height:45px; border: 0px solid #000; margin: 10px 0 20px 15%; line-height: 45px; text-align: center;}
+.side-menu li{list-style: none; height:33px; font-size: 14px; width:100%;}
+.side-menu li a:hover{color:red;}
+
+section{width:65.5%; height:350px; border:0px solid #000; float: left; margin: 20px 0 0 26%;}
+#slider1{height:345px;}
+#slider2{height:345px;}
+#slider3{height:345px;}
+#slider4{height:345px;}
+
+#urunler{width:70%; height:1620px; border:0px solid #000; float: left; margin: 10px 0 0 26%;}
+#kutu1{width:21%; height: 370px; border: 1px solid #d7d1d1; margin: 30px 3% 0 0.2%; font-size: 13px; float: left;}
+
+#urunbuton{background-color: #FFA500; border-color: #FFA500; color: #fff; margin: 5px 0 0 18%;}
+
+#bilgilendirme{width:100%; height:300px; border-top:1px solid #d7d1d1; float: left; margin: 0px 0 0 0;}
+#bilgiyazi1{font-size: 17px;}
+#bilgiyazi2{font-size: 14px;}
+#menu-icon{height:100px;}
+#bilgiler{border-right: 1px solid #d7d1d1; height: 220px; padding: 20px 0 0 0;}
+
+footer{width:100%; height:250px; border-top:0px solid #d7d1d1; float: left; background: #f9f9f9;}
+#footyazi{font-size: 13px;}
+#footyazi2{font-size: 18px;}
+#sosyalmedia{width:120px; height:35px; border:0px solid #000; margin:5px 0 0 90px;}
+
+
+#sepetim{width: 75%; height: 140px; border:0px solid #000; float: left; padding: 10px 0 0px 0;}
+#sepetdiv1{font-size: 25px; width:100%; height:40px; border:1px solid #d7d1d1; margin: 20px 0 0 0;}
+#sepetyazi1{font-size: 22px; margin: 20px 0 0 5%; color:#7d7878}
+#sepetdiv2{width:100%; height:50px; border:0px solid #000; margin: 20px 0 0 0;}
+
+#sepetmenu1{width:10%; height:45px; border:1px solid #d7d1d1; margin: 0 0 0 0; float: left; text-align: center; line-height: 40px; font-size: 15px; color: #7d7878;}
+#sepetmenu2{width:17%; height:45px; border:1px solid #d7d1d1; margin: 0 0 0 0; float: left; text-align: center; line-height: 40px; font-size: 15px; color: #7d7878;}
+#sepetmenu3{width:51%; height:45px; border:1px solid #d7d1d1; margin: 0 0 0 0; float: left; text-align: center; line-height: 40px; font-size: 15px; color: #7d7878;}
+#sepetmenu4{width:11%; height:45px; border:1px solid #d7d1d1; margin: 0 0 0 0; float: left; text-align: center; line-height: 40px; font-size: 15px; color: #7d7878;}
+#sepetmenu5{width:11%; height:45px; border:1px solid #d7d1d1; margin: 0 0 0 0; float: left; text-align: center; line-height: 40px; font-size: 15px; color: #7d7878;}
+
+#sepetdiv3{width:75%; height: 1460px; border: 0px solid #000; float: left; margin: 0px 0 0 0;}
+#urunid{width:10%; height:90px; border:1px solid #d7d1d1; float: left; margin: 10px 0 0 0%; text-align: center; line-height: 80px; font-size: 11px;}
+#urunresim{width:17%; height:90px; border:1px solid #d7d1d1; float: left; margin: 10px 0 0 0%;}
+#urunadi{width:51%; height:90px; border:1px solid #d7d1d1; float: left; margin: 10px 0 0 0%; font-size: 12px; text-align: center; line-height: 80px;}
+#urunfiyat{width:11%; height:90px; border:1px solid #d7d1d1; float: left; margin: 10px 0 0 0%; font-size: 13px; text-align: center; line-height: 80px;}
+#urunislem{width:11%; height:90px; border:1px solid #d7d1d1; float: left; margin: 10px 0 0 0%; font-size: 13px; text-align: center; line-height: 80px;}
+
+#satinalma{width: 16.5%; height: 300px; border: 1px solid #d7d1d1; margin: 50px 0 0 2%; float: left; border-radius: 5px 5px 5px 5px;}
+#satinalma1{width:100%; height: 98px; border-bottom: 1px solid #d7d1d1; text-align: center; line-height: 40px;}
+#satinalma2{width:100%; height: 98px; border-bottom: 1px solid #d7d1d1; text-align: center; font-size: 14px; background: #fddaea;}
+#satinalma3{width:100%; height: 100px; border: 0px solid #000;}
+#satinalmabutonu2{width:100%; height: 100px; border: 0px solid #000; margin: 0 0 0 12%;}
+
+#satinalmaform{width:100%; height:420px; border:1px solid #d7d1d1; float: left; margin: 20px 0 0 0; border-radius: 5px 5px 5px 5px;}
+
+
+#urunbuton2{background-color: #FFA500; border-color: #FFA500; color: #fff; margin: 30px 0 0 10%;}
+
+.alert.alert-success {
+    background-color: #4CAF50; /* Yeşil arkaplan rengi */
+    border-color: #45A049; /* Yeşil kenarlık rengi */
+    color: #fff; /* Beyaz yazı rengi */
+}
+
+}
