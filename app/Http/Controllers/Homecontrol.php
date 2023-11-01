@@ -231,8 +231,7 @@ $request->setBasketItems($basketItems);
 $payment = \Iyzipay\Model\Payment::create($request, $options);
 
 if ($payment->getStatus() === "success") {
-    // Ödeme başarılıysa
-    $name = auth()->user()->name; // Kullanıcının adını alabilirsiniz (varsayılan olarak giriş yapmış kullanıcıya ait)
+    $name = auth()->user()->name;
     $sepetUrunleri = Siparisler::where('name', $name)->get();
 
     foreach ($sepetUrunleri as $urun) {
@@ -244,7 +243,6 @@ if ($payment->getStatus() === "success") {
         ]);
     }
 
-    // Şimdi Siparisler tablosundan ürünleri silebilirsiniz
     Siparisler::where('name', $name)->delete();
 
     return redirect()->back()->with("basari","Ödeme İşlemi Başarılı. Ürününüz Kargoya En Yakın Zamanda Verilecektir.");
